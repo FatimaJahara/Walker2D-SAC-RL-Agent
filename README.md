@@ -14,3 +14,7 @@ To train our Walker2D agent we used the Soft Actor-Critic (SAC) reinforcement le
 policy through interaction with the environment. Soft actor-critic (SAC) is a model-free off-policy maximum entropy
 actor-critic algorithm that avoids the complexity and potential instability associated with approximate inference in prior
 off-policy maximum entropy algorithms based on soft Q-learning Haarnoja et al. (2018).
+
+FEASIBLE APPLICATION: Designing a Socially Cognizant RL Agent with Theory of Mind for Autonomous Trash Collection
+<img width="419" height="313" alt="image" src="https://github.com/user-attachments/assets/672e03bb-b8ea-4d9a-91b4-f85a631f89f3" />
+
