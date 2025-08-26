@@ -30,6 +30,20 @@ observation space for better evaluation. Figure 6 shows evaluation of the polici
 <img width="601" height="232" alt="image" src="https://github.com/user-attachments/assets/dc7b972f-eab4-4884-928f-1576a819a376" />
 
 
-FEASIBLE APPLICATION: Designing a Socially Cognizant RL Agent with Theory of Mind for Autonomous Trash Collection
+FEASIBLE APPLICATION: Designing a Socially Cognizant RL Agent with Theory of Mind for Autonomous Trash Collection. The proposed robot needs many computer vision components to achieve efficient trash collection and intercepting
+human ToM, including but not limited to:
+1. Object Recognition: These robots need to be capable of detecting waste and recycle bins, Trash objects
+(e.g. drink cans), and people. Various methods using deep learning had been implemented for more accurate
+classifications Wang et al. (2020).
+2. Semantic Segmentation: After detecting each of mentioned classes it is necessary that they can differentiate
+each component (e.g. trash) from the surrounding environment, allowing the robot to focus on relevant objects
+and take actions accordingly Bashkirova et al. (2021).
+3. Object Detection: Detects specific trash objects like bottles, cans, and papers, enabling targeted collection
+efforts Bashkirova et al. (2021).
+4. Pose Estimation: To enable the ToM module, an important step is to recognize human postures to determine
+if a person is holding trash or reaching for a bin, enhancing interactive capabilities Li et al. (2023). Further,
+that is used for understanding human navigation and human-robot collision avoidance Zhang et al. (2023).
+5. Action Recognition: To identify human behaviors such as littering or handing trash to the robot, allowing
+appropriate responsive actions Wang et al. (2019).
 <img width="419" height="313" alt="image" src="https://github.com/user-attachments/assets/672e03bb-b8ea-4d9a-91b4-f85a631f89f3" />
 
