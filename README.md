@@ -9,3 +9,8 @@ in the bottom below the thighs, and two feet attached to the legs on which the e
 build on top of the hopper environment Durrant-Whyte et al. (2012) allowing the robot to work forward using a new set
 of legs in MuJoCo (Gymnasium). The goal of the walker is to move in the forward (right) direction by coordinating
 both sets of feet, legs, and thighs and by applying torques on the six hinges connecting the six body parts.
+
+To train our Walker2D agent we used the Soft Actor-Critic (SAC) reinforcement learning algorithm to optimize its
+policy through interaction with the environment. Soft actor-critic (SAC) is a model-free off-policy maximum entropy
+actor-critic algorithm that avoids the complexity and potential instability associated with approximate inference in prior
+off-policy maximum entropy algorithms based on soft Q-learning Haarnoja et al. (2018).
